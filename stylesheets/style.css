@@ -11,6 +11,7 @@
     --cor4:#5c1a1a;
     --cor5:#3d0606;
     --cor6:#f7d04e;
+    --cor7:#f5f3e0;
 
     --font-padrao:arial,verdana,helvetica,sans-serif;
     --font-destaque:"Bebas Neue", sans-serif;
@@ -22,7 +23,7 @@
 }
 
 body{
-    background-color:var(--cor0);
+    background-color:var(--cor7);
     font-family: var(--font-padrao);
     color: var(--cor5);
 }
@@ -39,7 +40,6 @@ header  > h1{
     font-weight: normal;
     font-size: 2em;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.463);
-    padding-top: 10px;
     padding-bottom: 30px;
 }
 
