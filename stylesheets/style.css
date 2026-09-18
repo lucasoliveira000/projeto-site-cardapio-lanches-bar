@@ -92,7 +92,7 @@ main > .chamada{
 
 .nosso-cardapio > h2 {
     font-family: var(--font-destaque);
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 20px;
 }
 
@@ -106,12 +106,12 @@ main > .chamada{
 }
 
 .icones-categorias > h3{
-    
-
+        font-family: var(--font-destaque);
+        font-size: 40px;
 }
 
 .icones-categorias > h3 > img{
-    width: 100px;
+    width:150px;
     height: auto;
 }
 
