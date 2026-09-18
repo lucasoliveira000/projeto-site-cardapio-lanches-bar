@@ -23,7 +23,7 @@
 }
 
 body{
-    background-color:var(--cor7);
+    background-color:var(--cor4);
     font-family: var(--font-padrao);
     color: var(--cor5);
 }
@@ -76,7 +76,6 @@ main{
     max-width: 100%;
     height: auto;
 }
-
 main > .chamada{
     font-family: var(--font-destaque);
     padding: 20px;
@@ -84,8 +83,30 @@ main > .chamada{
     font-size: 2em;
 }
 
-.icones-categorias > h3{
+.nosso-cardapio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+
+.nosso-cardapio > h2 {
+    font-family: var(--font-destaque);
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+@media(max-width:600px){
+    .nosso-cardapio > h2{
+        font-size: 30px;
+    }
+    .nosso-cardapio > img{
+        width:150px;
+    }
+}
+
+.icones-categorias > h3{
+    
 
 }
 
