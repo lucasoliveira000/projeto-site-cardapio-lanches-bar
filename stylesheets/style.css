@@ -70,3 +70,32 @@ header > p{
     font-size: 1.5em;
 
 }
+
+main{
+    background-color: var(--cor7);
+    max-width: 100%;
+    height: auto;
+}
+
+main > .chamada{
+    font-family: var(--font-destaque);
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.icones-categorias > h3{
+
+
+}
+
+.icones-categorias > h3 > img{
+    width: 100px;
+    height: auto;
+}
+
+@media (max-width: 600px){
+    .icones-categorias > h3 > img{
+        width: 50px;
+    }
+}
