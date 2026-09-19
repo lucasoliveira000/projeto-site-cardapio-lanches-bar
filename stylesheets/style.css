@@ -151,7 +151,12 @@ main > .chamada{
 }
 
 .categorias{
-    
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    text-align: center;
+    font-family: var(--font-destaque);
+    font-size: 40px;
+    color:var(--cor0);
+    font-weight: normal;
 
 }
 
