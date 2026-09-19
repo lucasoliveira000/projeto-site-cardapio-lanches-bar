@@ -60,7 +60,6 @@ header > a{
 header > a:active{
     font-size:1.4em ;
     font-weight: bold;
-    color: var(--cor0);
     
 }
 
@@ -157,9 +156,17 @@ main > .chamada{
     font-size: 40px;
     color:var(--cor0);
     font-weight: normal;
-
 }
 
+@media (max-width: 700px){
+    .categorias h2{
+        font-size: 35px;
+        font-weight: lighter;
+    }
+    .categorias > h2 >img{
+        width: 30px;
+    }
+}
 .icones-categorias > h3{
     font-family: var(--font-destaque);
     font-size: 40px;
