@@ -156,6 +156,7 @@ main > .chamada{
     font-size: 40px;
     color:var(--cor0);
     font-weight: normal;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 700px){
@@ -170,6 +171,7 @@ main > .chamada{
 .icones-categorias > h3{
     font-family: var(--font-destaque);
     font-size: 40px;
+    text-align: center;
 }
 
 .icones-categorias > h3 > img{
@@ -186,4 +188,23 @@ main > .chamada{
         width: 50px;
     }
     
+}
+
+.produtos{
+    font-family: var(--font-padrao);
+    padding: 20px;
+    
+}
+
+.produtos > article > h4{
+    font-family: var(--font-padrao);
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+@media (max-width: 700px){
+    .produtos > article > h4{
+        font-size: 20px;
+    }
 }
