@@ -48,13 +48,20 @@ header > picture{
 }
 
 header > a{
-    display: block;
+    display:block;
     color: var(--cor0);
     font-family: var(--font-padrao);
     font-size: 1.3em;
     text-align: left;
     text-decoration: none;
     
+}
+
+header > a:hover{
+    background-color: var(--cor7);
+    color: #3d0606;
+    border-radius: 5px;
+    width: 30%;
 }
 
 header > a > img{
@@ -96,7 +103,7 @@ main > .chamada{
     padding-bottom: 20px;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     .nosso-cardapio > h2{
         font-size: 30px;
     }
@@ -105,9 +112,52 @@ main > .chamada{
     }
 }
 
+
+.menu{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.menu > a{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: var(--font-padrao);
+    color: var(--cor5);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width:700px){
+    .menu{
+        text-align: left;
+       
+    }
+    .menu a{
+        display:block;
+        font-size: 20px;
+    }
+
+}
+
+.menu > a:hover{
+    background-color: #dc3d3d;
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    color: var(--cor7);
+}
+
+.categorias{
+    
+
+}
+
 .icones-categorias > h3{
-        font-family: var(--font-destaque);
-        font-size: 40px;
+    font-family: var(--font-destaque);
+    font-size: 40px;
 }
 
 .icones-categorias > h3 > img{
@@ -115,8 +165,13 @@ main > .chamada{
     height: auto;
 }
 
-@media (max-width: 600px){
+@media (max-width: 700px){
+    .icones-categorias > h3{
+        font-size: 25px;
+    }
+
     .icones-categorias > h3 > img{
         width: 50px;
     }
+    
 }
