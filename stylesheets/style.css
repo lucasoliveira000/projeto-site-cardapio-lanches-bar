@@ -58,10 +58,10 @@ header > a{
 }
 
 header > a:hover{
-    background-color: var(--cor7);
-    color: #3d0606;
-    border-radius: 5px;
-    width: 30%;
+    font-size:1.4em ;
+    font-weight: bold;
+    color: var(--cor0);
+    
 }
 
 header > a > img{
