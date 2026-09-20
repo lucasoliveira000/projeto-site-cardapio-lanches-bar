@@ -245,3 +245,31 @@ main > .chamada{
         font-size: 16.5px;
     }
 }
+
+.acompanhamentos{
+    text-align: center;
+    padding: 40px;
+}
+.acompanhamentos > label{
+    font-family: var(--font-padrao);
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.acompanhamentos > label > input{
+   width: 25px;
+   height: 25px;
+}
+
+@media (max-width: 700px){
+    .acompanhamentos > label{
+        font-size: 20px;
+    }
+
+    .acompanhamentos > label > input{
+        width: 20px;
+        height: 20px;
+    }
+}
