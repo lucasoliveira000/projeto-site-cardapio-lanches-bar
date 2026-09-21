@@ -355,7 +355,14 @@ main > .chamada{
     font-size: 25px;
     padding: 50px;
     margin-bottom: 30px;
-    border: solid 1px var(--cor5);
     border-radius: 10px;
+    box-shadow: 0px 0px 5px var(--cor4);
 
 }
+
+@media (max-width: 700px){
+    #observacoes > textarea{
+        font-size: 18px;
+    }
+}
+
