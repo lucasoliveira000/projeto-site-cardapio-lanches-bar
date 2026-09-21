@@ -12,6 +12,7 @@
     --cor5:#3d0606;
     --cor6:#f7d04e;
     --cor7:#f5f3e0;
+    --cor8:#f6f6f4dd;
 
     --font-padrao:arial,verdana,helvetica,sans-serif;
     --font-destaque:"Bebas Neue", sans-serif;
@@ -271,5 +272,65 @@ main > .chamada{
     .acompanhamentos > label > input{
         width: 20px;
         height: 20px;
+    }
+}
+
+#area-carrinho{
+    background-color: var(--cor8);
+    text-align: center;
+    padding-bottom: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid 0.5px  var(--cor5);
+    box-shadow: 0px 0px 5px var(--cor4);
+}
+
+.finalize-seu-pedido{
+    padding: 20px;
+}
+
+.finalize-seu-pedido > h3{
+    text-align: center;
+    font-family: var(--font-padrao);
+    font-size: 30px;
+}
+
+@media (max-width: 700px){
+    .finalize-seu-pedido > h3{
+        font-size: 20px;
+    }
+}
+
+.finalize-seu-pedido > p{
+    font-family: var(--font-padrao);
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.finalize-seu-pedido > div{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.finalize-seu-pedido > div > label{
+    font-family: var(--font-padrao);
+    font-size: 25px;
+}
+
+@media (max-width: 700px){
+    .finalize-seu-pedido > div > label{
+        font-size: 18px;
+    }
+}
+
+.finalize-seu-pedido > div > input{
+    font-size: 25px;
+    font-family: var(--font-padrao);
+}
+
+@media (max-width: 700px){
+    .finalize-seu-pedido > div > input{
+        font-size: 18px;
     }
 }

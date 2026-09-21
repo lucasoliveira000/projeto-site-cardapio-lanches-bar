@@ -51,13 +51,13 @@
 
             <section>
                 <div class="menu">
-                    <a href="#espetinhos">🔥ESPETINHOS</a>
-                    <a href="#pratos">🔥PRATOS</a>
-                    <a href="#porcoes-e-petiscos">🔥PORÇÕES & PETISCOS</a>
-                    <a href="#salgados">🔥SALGADOS</a>
-                    <a href="#combos">🔥COMBOS</a>
-                    <a href="#acompanhamentos">🔥ACOMPANHAMENTOS</a>
-                    <a href="#bebidas">🔥BEBIDAS</a>
+                    <a href="#espetinhos">🍡ESPETINHOS</a>
+                    <a href="#pratos">🍽️PRATOS</a>
+                    <a href="#porcoes-e-petiscos">🍟PORÇÕES & PETISCOS</a>
+                    <a href="#salgados">🥟SALGADOS</a>
+                    <a href="#combos">🧺COMBOS</a>
+                    <a href="#acompanhamentos">🥣ACOMPANHAMENTOS</a>
+                    <a href="#bebidas">🍾BEBIDAS</a>
                 </div>
             </section>
 
@@ -551,96 +551,106 @@
             </label>
         </section>
 
-        <section id="meu-pedido" class="icones-categorias">
-            <h3>
-                <img src="icones/icone-carrinho-meu-pedido-.webp" alt="">
-                Carrinho
-            </h3>
-        </section>
-
-        <section>
-            <div>
-                seu carrinho esta vazio
-                <ul>
-
-                </ul>
-            </div>
-
-            <p>Total : 0,00</p>
-        </section>
-
-
-        <section>
-    
-            <h3>Finalize seu pedido!</h3>
-            <form>
-            <p>Digite seus dados abaixo.</p>
-
-            <!--cadastro do cliente-->
-
-            <label for="nome">Nome</label>
-            <input type="text"
-            placeholder="Digite aqui" id="nome">
-
-            <label for="telefone">Telefone</label>
-            <input type="tel"
-            placeholder="(00)0 00000000" id="telefone">
-
-            <label for="endereco">Endereço</label>
-            <input type="text"
-            placeholder="sua rua e nº da casa" id="endereco">
-
-            <label for="ponto-de-referencia">ponto de Referênçia</label>
-            <input type="text" placeholder="proximo ao...." id="ponto-de-referencia">
-
-            <h3>Observações✍️</h3>
-
-            <textarea name="Observacoes" placeholder="Observacoes-sobre-o-pedido"></textarea>
-        </section>
-
-        <section>
-            <h3>Forma de pagamento 💸</h3>
-                <!--botao de selecao-->
-            <div>
-                <label>
-                    <input type="radio" name="pagamento" value="dinheiro">
-                    💵Dinheiro
-                </label>
-            
-            <!--are de preechimento-->
-            <div>
-                <label for="troco">Troco pra quanto?
-                <input type="number" placeholder="0,00" id="troco">
-                </label>
-            </div>
-
-            </div>
-
-            <!--botao de selecao-->
-            <div>
-                <label>
-                    <input type="radio" name="pagamento" value="pix">
-                    🍀Pix
-                </label>
-                <!--botao de copiar pix-->
+        <div id="area-carrinho">
+            <section id="meu-pedido" class="icones-categorias">
+                <h3>
+                    <img src="icones/icone-carrinho-meu-pedido-.webp" alt="">
+                    Carrinho
+                </h3>
+            </section>
+            <section>
                 <div>
-                    <p>Copiar-chave⬇️</p>
-                    <button type="button" >PIX:8599952-9952
-                    </button>
+                    seu carrinho esta vazio
+                    <ul>
+                    </ul>
                 </div>
-            </div>
-                <!--botao de selecao-->
-                <label>
-                    <input type="radio" name="pagamento" value="cartao">
-                    💳Cartão de Crédito/débito na entrega
-                </label>
-        </section>
+                <p>Total : 0,00</p>
+            </section>
+        </div>
+
+        <!--cadastro do cliente-->
+        <section>  
+
+            <form>
+
+                <article class="finalize-seu-pedido">
+                    <h3>Finalize seu pedido!</h3>
+                    <p>Digite seus dados abaixo.</p>
+
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text"
+                        placeholder="Digite aqui" id="nome">
+                    </div>
+
+                    <div>
+                        <label for="telefone">Telefone</label>
+                        <input type="tel"
+                        placeholder="(00)0 00000000" id="telefone">
+                    </div>
+
+                    <div>
+                        <label for="endereco">Endereço</label>
+                        <input type="text"
+                        placeholder="sua rua e nº da casa" id="endereco">
+                    </div>
+
+                    <div>
+                        <label for="ponto-de-referencia">Ponto de Referênçia</label>
+                        <input type="text" placeholder="proximo ao...." id="ponto-de-referencia">
+                    </div>
+                </article>
+
+                <article>
+                    <h3>Observações✍️</h3>
+                    <textarea name="Observacoes" placeholder="Observacoes-sobre-o-pedido"></textarea>
+                </article>
+
+                <article>
+                    <h3>Forma de pagamento 💸</h3>
+                        <!--botao de selecao-->
+                    <div>
+                        <label>
+                            <input type="radio" name="pagamento" value="dinheiro">
+                            💵Dinheiro
+                        </label>
+                    
+                    <!--are de preechimento-->
+                    <div>
+                        <label for="troco">Troco pra quanto?
+                        <input type="number" placeholder="0,00" id="troco">
+                        </label>
+                    </div>
+
+                    </div>
+
+                    <!--botao de selecao-->
+                    <div>
+                        <label>
+                            <input type="radio" name="pagamento" value="pix">
+                            🍀Pix
+                        </label>
+                        <!--botao de copiar pix-->
+                        <div>
+                            <p>Copiar-chave⬇️</p>
+                            <button type="button" >PIX:8599952-9952
+                            </button>
+                        </div>
+                    </div>
+                        <!--botao de selecao-->
+                        <label>
+                            <input type="radio" name="pagamento" value="cartao">
+                            💳Cartão de Crédito/débito na entrega
+                        </label>
+                </article>
 
                 <!--botao de finalizar pedido-->
                 <button>
                     Finalizar Pedido
                 </button>
+
             </form>
+
         </section>
 
     </main>
