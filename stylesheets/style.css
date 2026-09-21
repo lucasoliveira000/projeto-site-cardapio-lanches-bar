@@ -334,3 +334,28 @@ main > .chamada{
         font-size: 18px;
     }
 }
+
+#observacoes{
+    text-align: center;
+}
+
+#observacoes > h3{
+    font-size: 30px;
+}
+
+@media (max-width: 700px){
+    #observacoes > h3{
+        font-size: 20px;
+    }
+}
+
+#observacoes > textarea{
+    background-color: var(--cor8);
+    color: var(--cor5);
+    font-size: 25px;
+    padding: 50px;
+    margin-bottom: 30px;
+    border: solid 1px var(--cor5);
+    border-radius: 10px;
+
+}
