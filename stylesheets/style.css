@@ -365,14 +365,74 @@ main > .chamada{
 
 #titulo-pagamentos{
     text-align: center;
+    font-size: 30px;
+}
+
+@media (max-width: 700px){
+    #titulo-pagamentos{
+        font-size: 20px;
+    }
 }
 
 .pagamentos{
     padding: 20px;
-    display: flex;
 }
 
+.pagamentos > div {
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 25px;
+}
 
+@media (max-width: 700px){
+    .pagamentos > div{
+        font-size: 18px;
+    }
+}
+
+.pagamentos > div > input{
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width: 700px){
+    .pagamentos > div > input{
+        width: 18px;
+        height: 18px;
+    }
+}
+
+.pagamentos > div > div > input{
+    font-size: 25px;
+}
+
+@media (max-width: 700px){
+    .pagamentos > div > div > input{
+        font-size: 18px;
+    }
+}
+
+#enviar-pedido{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#enviar-pedido > button{
+    background-color: var(--cor2);
+    color: var(--cor0);
+    font-size: 30px;
+    font-family: var(--font-destaque);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px var(--cor5);
+
+}
+
+@media (max-width: 700px){
+    #enviar-pedido > button{
+        font-size: 25px;
+    }
+}
 
 
 

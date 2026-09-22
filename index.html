@@ -614,24 +614,26 @@
                     <!--botao de selecao-->
                     <div class="pagamentos">
                         <div>
-                            <label>
-                                <input type="radio" name="pagamento" value="dinheiro">
+                            <input type="radio" id="dinheiro" name="pagamento" value="dinheiro">
+                            <label for="dinheiro">
                                 💵Dinheiro
                             </label>
                         
                             <!--are de preechimento-->
+
                             <div>
                               <label for="troco">Troco pra quanto?</label>
-                              <input type="number" placeholder="0,00" id="troco">
+                              
+                              <input type="number" id="troco" name="pagamento"placeholder="0,00">
                             </div>
+
                         </div>
 
                         <!--botao de selecao-->
                         <div>
-                            
-                            <label for="pix">🍀Pix</label>
                             <input type="radio" name="pagamento" value="pix">
-
+                            <label for="pix">🍀Pix</label>
+                        
                             <!--botao de copiar pix-->
                             <div>
                                 <p>Copiar-chave⬇️</p>
@@ -653,9 +655,11 @@
                 </article>
 
                 <!--botao de finalizar pedido-->
-                <button>
-                    Finalizar Pedido
-                </button>
+                <article id="enviar-pedido">
+                    <button>
+                        Finalizar Pedido
+                    </button>
+                </article>
 
             </form>
 
