@@ -44,9 +44,6 @@ header  > h1{
     padding-bottom: 30px;
 }
 
-header > picture{
-
-}
 
 header > a{
     display:block;
@@ -365,4 +362,17 @@ main > .chamada{
         font-size: 18px;
     }
 }
+
+#titulo-pagamentos{
+    text-align: center;
+}
+
+.pagamentos{
+    padding: 20px;
+    display: flex;
+}
+
+
+
+
 

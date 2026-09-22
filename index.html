@@ -603,45 +603,53 @@
 
                 <article id="observacoes">
                     <h3>Observações✍️</h3>
-                    <textarea name="Observacoes" placeholder="Observacoes-sobre-o-pedido"></textarea>
+                    <textarea name="Observacoes" placeholder="Observacoes sobre o pedido / Ex:sem cebola"></textarea>
                 </article>
 
-                <article>
-                    <h3>Forma de pagamento 💸</h3>
-                        <!--botao de selecao-->
-                    <div>
-                        <label>
-                            <input type="radio" name="pagamento" value="dinheiro">
-                            💵Dinheiro
-                        </label>
-                    
-                    <!--are de preechimento-->
-                    <div>
-                        <label for="troco">Troco pra quanto?
-                        <input type="number" placeholder="0,00" id="troco">
-                        </label>
-                    </div>
 
-                    </div>
+                <!-- formas de pagamentos -->
+                <article>
+                    <h3 id="titulo-pagamentos">Forma de pagamento 💸</h3>
 
                     <!--botao de selecao-->
-                    <div>
-                        <label>
-                            <input type="radio" name="pagamento" value="pix">
-                            🍀Pix
-                        </label>
-                        <!--botao de copiar pix-->
+                    <div class="pagamentos">
                         <div>
-                            <p>Copiar-chave⬇️</p>
-                            <button type="button" >PIX:8599952-9952
-                            </button>
+                            <label>
+                                <input type="radio" name="pagamento" value="dinheiro">
+                                💵Dinheiro
+                            </label>
+                        
+                            <!--are de preechimento-->
+                            <div>
+                              <label for="troco">Troco pra quanto?</label>
+                              <input type="number" placeholder="0,00" id="troco">
+                            </div>
                         </div>
-                    </div>
+
                         <!--botao de selecao-->
-                        <label>
-                            <input type="radio" name="pagamento" value="cartao">
-                            💳Cartão de Crédito/débito na entrega
-                        </label>
+                        <div>
+                            
+                            <label for="pix">🍀Pix</label>
+                            <input type="radio" name="pagamento" value="pix">
+
+                            <!--botao de copiar pix-->
+                            <div>
+                                <p>Copiar-chave⬇️</p>
+                                <button type="button" >PIX:8599952-9952
+                                </button>
+                            </div>
+
+                        </div>
+
+                            <div>
+                                <!--botao de selecao-->
+                                <input type="radio" name="pagamento" value="cartao">
+                                <label>
+                                    💳Cartão de Crédito/débito na entrega
+                                </label>
+                            </div>
+                        
+                    </div>
                 </article>
 
                 <!--botao de finalizar pedido-->
