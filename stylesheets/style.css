@@ -83,10 +83,13 @@ main{
     max-width: 100%;
     height: auto;
     margin: 0px 30px 70px 30px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 0px 20px  var(--cor4);
 }
 main > .chamada{
     font-family: var(--font-destaque);
-    padding: 20px;
+    padding-top: 20px;
+    
     text-align: center;
     font-size: 2em;
     color: var(--cor8);
@@ -94,18 +97,19 @@ main > .chamada{
 }
 
 .nosso-cardapio{
+    background-color: var(--cor8);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
 }
 
 
 .nosso-cardapio > h2 {
     font-family: var(--font-destaque);
     font-size: 50px;
-    padding-bottom: 20px;
-    color: var(--cor8);
+    color: var(--cor5);
     font-weight: lighter;
 }
 
@@ -116,16 +120,6 @@ main > .chamada{
     .nosso-cardapio > img{
         width:150px;
     }
-}
-
-.nosso-cardapio > img{
-    background-color: var(--cor8);
-    margin: 20px;
-    border: double 10px var(--cor5);
-    border-radius: 20px;
-    
-
-    
 }
 
 
