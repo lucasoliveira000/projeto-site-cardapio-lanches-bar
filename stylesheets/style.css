@@ -392,12 +392,13 @@ main > .chamada{
 }
 
 #observacoes > textarea{
-    background-color: var(--cor5);
-    color: var(--cor8);
-    font-size: 25px;
-    padding: 50px;
-    border-radius: 10px;
-    max-width: 100%;
+   background-color: var(--cor5);
+   color: var(--cor8);
+   box-sizing: border-box;
+   width: 100%;
+   min-height: 150px;
+   padding: 15px;
+   border-radius: 10px;
 }
 
 @media (max-width: 700px){
@@ -452,7 +453,7 @@ main > .chamada{
 
 .pagamentos > div > div > input{
     background-color: var(--cor0);
-    color: var(--cor0);
+    color: var(--cor5);
     font-size: 25px;
     border-radius: 5px;
     border: 0px;
@@ -464,7 +465,20 @@ main > .chamada{
     }
 }
 
-.pagamentos
+.pagamentos > div > div > button{
+    background-color: var(--cor1);
+    color: var(--cor0);
+    font-family: var(--font-padrao);
+    font-size: 25px;
+    margin: 10px 0px 10px 0px;
+
+}
+
+@media (max-width: 700px){
+    .pagamentos > div > div button{
+        font-size: 18px;
+    }
+}
 
 #enviar-pedido{
     text-align: center;
