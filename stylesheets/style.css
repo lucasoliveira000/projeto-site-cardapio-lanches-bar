@@ -394,6 +394,7 @@ main > .chamada{
 #observacoes > textarea{
    background-color: var(--cor5);
    color: var(--cor8);
+   font-size: 25px;
    box-sizing: border-box;
    width: 100%;
    min-height: 150px;
