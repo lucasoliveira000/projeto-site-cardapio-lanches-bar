@@ -79,7 +79,7 @@ header > p{
 }
 
 main{
-    background-color:#f6f5f500;
+    background-color:var(--cor5);
     max-width: 100%;
     height: auto;
     margin: 0px 50px 70px 50px;
