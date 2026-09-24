@@ -24,7 +24,7 @@
 }
 
 body{
-    background-image:url(/imagens/fundo-site-lanches-bar.700px.webp);
+    background-image:url(../imagens/fundo-site-lanches-bar.700px.webp);
     background-attachment: fixed;
     background-size: cover;
 
@@ -82,7 +82,7 @@ main{
     background-color:var(--cor5);
     max-width: 100%;
     height: auto;
-    margin: 0px 50px 70px 50px;
+    margin: 0px 30px 70px 30px;
 }
 main > .chamada{
     font-family: var(--font-destaque);
