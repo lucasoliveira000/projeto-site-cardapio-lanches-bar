@@ -119,8 +119,12 @@ main > .chamada{
 }
 
 .nosso-cardapio > img{
-    background-image:linear-gradient();
+    background-color: var(--cor8);
     margin: 20px;
+    border: double 10px var(--cor5);
+    border-radius: 20px;
+    
+
     
 }
 
