@@ -184,6 +184,11 @@ main > .chamada{
     }
 }
 
+.icones-categorias{
+    padding-bottom: 20px;
+    padding-top: 50px;
+
+}
 
 .icones-categorias > h3{
     font-family: var(--font-destaque);
@@ -195,11 +200,11 @@ main > .chamada{
 }
 
 .icones-categorias > h3 > img{
-    background-color: var(--cor0);
+    background-color:var(--cor7);
     width:150px;
     height: auto;
     vertical-align: middle;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 @media (max-width: 700px){
@@ -345,6 +350,8 @@ main > .chamada{
 }
 
 .finalize-seu-pedido > div > label{
+    width: 150px;
+    display: inline-block;
     font-family: var(--font-padrao);
     font-size: 25px;
 }
@@ -361,7 +368,8 @@ main > .chamada{
     background-color: var(--cor5);
     color: var(--cor0);
     border: solid 1px var(--cor8);
-    border-radius: 3px;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 @media (max-width: 700px){
@@ -371,12 +379,12 @@ main > .chamada{
 }
 
 #observacoes{
-    background-color: var(--cor5);
     text-align: center;
     margin: 20px 20px;
 }
 
 #observacoes > h3{
+    padding-bottom: 20px;
     font-size: 30px;
     color: var(--cor8);
 }
@@ -454,6 +462,7 @@ main > .chamada{
     font-size: 25px;
     border-radius: 5px;
     border: 0px;
+    padding: 10px;
 }
 
 @media (max-width: 700px){
@@ -468,6 +477,8 @@ main > .chamada{
     font-family: var(--font-padrao);
     font-size: 25px;
     margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
 
 }
 
