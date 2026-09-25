@@ -13,6 +13,8 @@
     --cor6:#f7d04e;
     --cor7:#f5f3e0;
     --cor8:#f6f6f4dd;
+    --cor9:#000000;
+    --cor10:rgba(2, 115, 38, 0.996);
 
     --font-padrao:arial,verdana,helvetica,sans-serif;
     --font-destaque:"Bebas Neue", sans-serif;
@@ -79,17 +81,13 @@ header > p{
 }
 
 main{
-    background-color:var(--cor5);
-    max-width: 100%;
-    height: auto;
-    margin: 0px 30px 70px 30px;
-    border-radius: 0px 0px 20px 20px;
-    box-shadow: 0px 0px 20px  var(--cor4);
+    background-image: url(/imagens/fundo-nosso-cardapio700px.webp);
+    background-position: bottom;
+    margin: 0px 10px 20px 10px;
 }
 main > .chamada{
     font-family: var(--font-destaque);
     padding-top: 20px;
-    
     text-align: center;
     font-size: 2em;
     color: var(--cor8);
@@ -97,20 +95,24 @@ main > .chamada{
 }
 
 .nosso-cardapio{
-    background-color: var(--cor8);
+    background-size: cover;
+    background-position:right;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding:10px;
     margin: 20px 0px 20px 0px;
+    box-shadow: 0px 0px 20px;
+
 }
 
 
 .nosso-cardapio > h2 {
     font-family: var(--font-destaque);
     font-size: 50px;
-    color: var(--cor5);
+    color: var(--cor8);
     font-weight: lighter;
+
 }
 
 @media(max-width:700px){
@@ -193,7 +195,7 @@ main > .chamada{
 }
 
 .icones-categorias > h3 > img{
-    background-color: var(--cor8);
+    background-color: var(--cor0);
     width:150px;
     height: auto;
     vertical-align: middle;
