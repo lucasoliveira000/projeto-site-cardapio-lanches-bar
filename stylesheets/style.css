@@ -123,9 +123,6 @@ main > .chamada{
 
 .nosso-cardapio > img{
     width: 350px;
-    background-color: var(--cor7);
-    padding: 20px;
-    clip-path: circle(40%);
     margin: 20px;
 }
 
@@ -210,7 +207,7 @@ main > .chamada{
 }
 
 .icones-categorias > h3 > img{
-    background-color:var(--cor7);
+    background-color: var(--cor7);
     width:150px;
     height: auto;
     vertical-align: middle;
