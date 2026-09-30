@@ -18,6 +18,7 @@
 
     --font-padrao:arial,verdana,helvetica,sans-serif;
     --font-destaque:"Bebas Neue", sans-serif;
+    --font-monoespacada:monospace;
 }   
 
 * {
@@ -227,25 +228,29 @@ main > .chamada{
 
 .produtos{
     font-family: var(--font-padrao);
-    
 }
 
 .produtos > article{
     padding: 20px 0px 20px 0px;
 }
 
-.produtos > article > h4{
-    color: var(--cor8);
-    font-family: var(--font-padrao);
-    font-size: 30px;
-    padding: 10px;
-    vertical-align: middle;
+.produtos > article > h4 {
+    display: flex;
+    align-items: center;
 
 }
 
+.produtos > article > h4 > span{
+    color: var(--cor8);
+    font-size: 30px;
+    font-family: var(--font-monoespacada);
+    width: 300px;
+}
+
 @media (max-width: 700px){
-    .produtos > article > h4{
+    .produtos > article > h4 > span{
         font-size: 20px;
+        width: 150px;
     }
 }
 
@@ -266,9 +271,10 @@ main > .chamada{
 .produtos > article > h4 > strong{
     color: var(--cor8);
     border-radius: 5px;
-    font-family: var(--font-padrao);
+    font-family: var(--font-monoespacada);
     font-size: 30px;
-    padding: 40px 10px 0px 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
@@ -284,6 +290,8 @@ main > .chamada{
     border-radius: 5px;
     font-size: 20px;
     font-family: var(--font-padrao);
+    padding: 5px;
+    
 
 }
 
@@ -292,6 +300,7 @@ main > .chamada{
         font-size: 16.5px;
     }
 }
+
 
 .acompanhamentos{
     text-align: center;
