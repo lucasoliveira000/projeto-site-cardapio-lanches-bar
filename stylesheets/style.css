@@ -194,7 +194,7 @@ main > .chamada{
 
 .icones-categorias{
     padding-bottom: 20px;
-    padding-top: 50px;
+    padding-top: 30px;
 
 }
 
@@ -237,6 +237,7 @@ main > .chamada{
 .produtos > article > h4 {
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -244,13 +245,21 @@ main > .chamada{
     color: var(--cor8);
     font-size: 30px;
     font-family: var(--font-monoespacada);
-    width: 300px;
+    width: 700px;
+}
+
+
+@media (max-width: 1000px){
+    .produtos > article > h4 > span{
+        width: 200px;
+    }
+
 }
 
 @media (max-width: 700px){
     .produtos > article > h4 > span{
         font-size: 20px;
-        width: 150px;
+        width: 200px;
     }
 }
 
@@ -275,6 +284,7 @@ main > .chamada{
     font-size: 30px;
     padding-left: 20px;
     padding-right: 20px;
+    width: 100px;
 
 }
 
