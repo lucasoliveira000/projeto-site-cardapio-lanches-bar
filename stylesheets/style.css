@@ -87,7 +87,10 @@ main{
     background-image: url(../imagens/fundo-nosso-cardapio700px.webp);
     background-position: bottom;
     margin: 0px 0px 50px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 0px 0px 15px 15px;
+
 }
 main > .chamada{
     font-family: var(--font-destaque);
@@ -259,7 +262,7 @@ main > .chamada{
 @media (max-width: 700px){
     .produtos > article > h4 > span{
         font-size: 20px;
-        width: 120px;
+        width: 100px;
     }
 }
 
