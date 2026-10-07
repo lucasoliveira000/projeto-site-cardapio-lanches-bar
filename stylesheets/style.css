@@ -313,10 +313,13 @@ main > .chamada{
     font-family: var(--font-padrao);
     padding: 5px;
 
+
 }
 
 @media (max-width: 700px){
     .produtos > article > h4 > button{
+        font-size: 16.5px;
+
     }
 }
 
