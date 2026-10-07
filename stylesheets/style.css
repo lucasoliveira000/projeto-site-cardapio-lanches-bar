@@ -260,7 +260,7 @@ main > .chamada{
 
 @media (max-width: 1000px){
     .produtos > article > h4 > span{
-        width: 200px;
+        width: 150px;
     }
 
 }
@@ -301,7 +301,7 @@ main > .chamada{
 @media (max-width: 700px){
     .produtos > article > h4 > strong{
         font-size: 18px;
-        margin-left: 50px;
+        margin-left: 30px;
         
         
         
