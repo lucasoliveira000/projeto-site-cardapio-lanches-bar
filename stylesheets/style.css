@@ -268,7 +268,7 @@ main > .chamada{
 @media (max-width: 700px){
     .produtos > article > h4 > span{
         font-size: 20px;
-        width: 100px;
+        width: 80px;
     }
 }
 
@@ -315,13 +315,14 @@ main > .chamada{
     font-size: 20px;
     font-family: var(--font-padrao);
     padding: 5px;
-    
+    width: 150px;
 
 }
 
 @media (max-width: 700px){
     .produtos > article > h4 > button{
         font-size: 16.5px;
+        width: 80px;
     }
 }
 
