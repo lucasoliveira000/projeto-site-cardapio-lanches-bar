@@ -237,6 +237,8 @@ main > .chamada{
 
 .produtos{
     font-family: var(--font-padrao);
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .produtos > article{
@@ -268,7 +270,7 @@ main > .chamada{
 @media (max-width: 700px){
     .produtos > article > h4 > span{
         font-size: 20px;
-        width: 80px;
+        width: 150px;
     }
 }
 
@@ -293,15 +295,14 @@ main > .chamada{
     font-size: 30px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 100px;
-    margin-left: 50px;
+    width: 80px;
 
 }
 
 @media (max-width: 700px){
     .produtos > article > h4 > strong{
         font-size: 18px;
-        margin-left: 30px;
+        width: 50px;
         
         
         
