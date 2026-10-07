@@ -237,8 +237,6 @@ main > .chamada{
 
 .produtos{
     font-family: var(--font-padrao);
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .produtos > article{
