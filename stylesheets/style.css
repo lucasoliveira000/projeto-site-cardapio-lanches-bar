@@ -255,12 +255,13 @@ main > .chamada{
     font-size: 30px;
     font-family: var(--font-monoespacada);
     width: 500px;
+    padding-left: 10px;
 }
 
 
 @media (max-width: 1000px){
     .produtos > article > h4 > span{
-        width: 100px;
+        width: 350px;
     }
 
 }
