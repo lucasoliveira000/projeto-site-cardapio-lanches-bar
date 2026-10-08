@@ -292,12 +292,13 @@ main > .chamada{
     font-size: 30px;
     padding-left: 20px;
     padding-right: 20px;
-
+    width: 100px;
 }
 
 @media (max-width: 700px){
     .produtos > article > h4 > strong{
         font-size: 18px;
+        width: 50px;
     }
 }
 
