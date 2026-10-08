@@ -290,8 +290,6 @@ main > .chamada{
     border-radius: 5px;
     font-family: var(--font-monoespacada);
     font-size: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
     width: 100px;
 }
 
