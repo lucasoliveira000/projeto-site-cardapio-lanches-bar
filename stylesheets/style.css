@@ -250,31 +250,6 @@ main > .chamada{
 
 }
 
-.produtos > article > h4 > span{
-    color: var(--cor8);
-    font-size: 30px;
-    font-family: var(--font-monoespacada);
-    width: 500px;
-    padding-left: 10px;
-}
-
-
-@media (max-width: 1000px){
-    .produtos > article > h4 > span{
-        width: 350px;
-        height: auto;
-        
-    }
-
-}
-
-@media (max-width: 700px){
-    .produtos > article > h4 > span{
-        font-size: 20px;
-        width: 150px;
-        height: auto;
-    }
-}
 
 .produtos > article > h4 > img{
     vertical-align: middle;
@@ -289,6 +264,33 @@ main > .chamada{
     }
 }
 
+.produtos > article > h4 > span{
+    color: var(--cor8);
+    font-size: 30px;
+    font-family: var(--font-monoespacada);
+    width: 500px;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+
+@media (max-width: 1000px){
+    .produtos > article > h4 > span{
+        width: 350px;
+        height: auto;
+
+    }
+
+}
+
+@media (max-width: 700px){
+    .produtos > article > h4 > span{
+        font-size: 20px;
+        width: 150px;
+        height: auto;
+    }
+}
+
 .produtos > article > h4 > strong{
     color: var(--cor8);
     border-radius: 5px;
@@ -296,6 +298,7 @@ main > .chamada{
     font-size: 30px;
     width: 100px;
     height: auto;
+    justify-content: center;
     margin:10px;
 }
 
