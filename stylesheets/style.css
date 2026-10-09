@@ -101,6 +101,12 @@ main > .chamada{
     font-weight: lighter;
 }
 
+@media (max-width: 1000px){
+    main > .chamada{
+        font-size: 3em;
+    }
+}
+
 @media (max-width: 700px){
     main > .chamada{
         font-size: 2em;
@@ -234,6 +240,50 @@ main > .chamada{
     }
     
 }
+
+.icones-categorias > .botao-home{
+    text-align: right;
+    padding: 10px;
+
+}
+
+.icones-categorias > .botao-home > a> button{
+    background-color: var(--cor2);
+    color: var(--cor0);
+    font-family: var(--font-destaque);
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px var(--cor8) ;
+}
+
+@media (max-width: 700px){
+    .icones-categorias > .botao-home > a> button{
+        width: 60px;
+        height: auto;
+
+    }
+}
+
+.icones-categorias > .botao-home > a> button > img{
+    width: 100px;
+    height: auto;
+}
+
+@media (max-width: 1000px){
+    .icones-categorias > .botao-home > a> button > img{
+       width: 70px;
+       height: auto;
+    }
+
+}
+
+@media (max-width: 700px){
+    .icones-categorias > .botao-home > a> button > img{
+        width: 50px;
+    }
+}
+
 
 .produtos{
     font-family: var(--font-padrao);
