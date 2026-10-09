@@ -86,7 +86,7 @@ header > p{
 main{
     background-image: url(../imagens/fundo-nosso-cardapio700px.webp);
     background-position: bottom;
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 10px 0px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 0px 0px 15px 15px;
@@ -580,7 +580,13 @@ main > .chamada{
 }
 
 footer{
-    background-color: var(--cor2);
+    background-image: linear-gradient(to top, var(--cor9), var(--cor4));
     color: var(--cor0);
+    font-family: var(--font-destaque);
+    font-weight: lighter;
     text-align: center;
+}
+
+footer > p{
+    padding-bottom: 5px;
 }
