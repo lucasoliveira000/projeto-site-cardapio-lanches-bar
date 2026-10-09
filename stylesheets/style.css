@@ -257,6 +257,13 @@ main > .chamada{
     height: auto;
 }
 
+@media (max-width: 900px){
+    .produtos > article > h4 > img{
+        width: 120px;
+        height: auto;
+    }
+}
+
 @media (max-width: 700px){
     .produtos > article > h4 > img{
         width: 70px;
@@ -268,15 +275,17 @@ main > .chamada{
     color: var(--cor8);
     font-size: 30px;
     font-family: var(--font-monoespacada);
-    width: 500px;
+    width: 400px;
     padding-left: 10px;
+    padding-right: 20px;
     justify-content: center;
 }
 
 
 @media (max-width: 1000px){
     .produtos > article > h4 > span{
-        width: 350px;
+        font-size: 25px;
+        width: 300px;
         height: auto;
 
     }
