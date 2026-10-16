@@ -1,0 +1,454 @@
+[
+    {
+        "category_label": "ESPETINHOS",
+        "item": "Gado",
+        "preco": 7,
+        "imagem": "imagens/img-espeto-gado.png"
+    },
+    {
+        "category_label": "ESPETINHOS",
+        "item": "Porco",
+        "preco": 6,
+        "imagem":"imagens/img-espeto-porco.png"
+    },
+    {
+        "category_label": "ESPETINHOS",
+        "item": "Frango",
+        "preco": 6,
+        "imagem":"imagens/img-espeto-frango.png"
+    },
+    {
+        "category_label": "ESPETINHOS",
+        "item": "Coração de galinha",
+        "preco": 6,
+        "imagem":"imagens/img-espeto-coracao-de-frango.png"
+    },
+    {
+        "category_label": "ESPETINHOS",
+        "item": "Moela",
+        "preco": 6,
+        "imagem":"imagens/img-espeto-moela-de-frango.png"
+    },
+    {
+        "category_label": "ESPETINHOS",
+        "item": "Coração de boi",
+        "preco": 6,
+        "imagem":"imagens/img-espeto-coracao-de-boi.png"
+    },
+    {
+        "category_label": "ESPETINHOS",
+        "item": "linguiça",
+        "preco": 5,
+        "imagem":"imagens/img-linguica.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Baião Cremoso P",
+        "preco": 8,
+        "imagem":"imagens/img-baiao-cremoso.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Baião Cremoso M",
+        "preco": 10,
+        "imagem":"imagens/img-baiao-cremoso.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Baião Cremoso G",
+        "preco": 12,
+        "imagem":"imagens/img-baiao-cremoso.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Arroz P",
+        "preco": 8,
+        "imagem":"imagens/img-arroz.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Arroz M",
+        "preco": 10,
+        "imagem":"imagens/img-arroz.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Arroz G",
+        "preco": 12,
+        "imagem":"imagens/img-arroz.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Canja de Galinha",
+        "preco": 8,
+        "imagem":"imagens/img-canja-de-galinha.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Macarronada M — Carne moída",
+        "preco": 12,
+        "imagem":"imagens/img-macarronada-de-carne moída.png"
+        
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Macarronada G — Carne moída",
+        "preco": 15,
+        "imagem":"imagens/img-macarronada-de-carne moída.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Macarronada M — Calabresa",
+        "preco": 12,
+        "imagem":"imagens/img-macarronada-de-calabresa.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Macarronada G — Calabresa",
+        "preco": 15,
+        "imagem":"imagens/img-macarronada-de-calabresa.png"
+        
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Galinha caipira",
+        "preco": 17,
+        "imagem":"imagens/img-galinha-caipira.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Feijoada",
+        "preco": 15,
+        "imagem":"imagens/img-feijoada.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Lasanha de frango sem Arroz",
+        "preco": 12,
+        "imagem":"imagens/img-lasanha-frango.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Lasanha de frango com Arroz",
+        "preco": 15,
+        "imagem":"imagens/img-lasanha-frango+Arroz.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Lasanha de Carne moida sem Arroz",
+        "preco": 12,
+        "imagem":"imagens/img-lasanha-carne.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Lasanha de carne moida com Arroz",
+        "preco": 15,
+        "imagem":"imagens/img-lasanha-carne+Arroz.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Fricassê de frango sem Arroz",
+        "preco": 12,
+        "imagem":"imagens/IMG-FRICASSE-FRANGO.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Fricassê de frango com Arroz",
+        "preco": 15,
+        "imagem":"imagens/IMG-FRICASSE-FRANGO+ARROZ.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Fricassê de Carne moida sem Arroz",
+        "preco": 12,
+        "imagem":"imagens/IMG-FRICASSE-CARNE-MOIDA.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Fricassê de carne moida com Arroz",
+        "preco": 15,
+        "imagem":"imagens/IMG-FRICASSE-CARNE-MOIDA+ARROZ.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Pratinho C/Arroz + carne na chapa M",
+        "preco": 12,
+        "imagem":"imagens/img-pratinho-arroz+carne-na-chapa.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Pratinho C/Arroz + carne na chapa G",
+        "preco": 15,
+        "imagem":"imagens/img-pratinho-arroz+carne-na-chapa.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Pratinho C/Baião + carne na chapa M",
+        "preco": 12,
+        "imagem":"imagens/img-pratinho-baiao+carne-na-chapa.png"
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Pratinho C/Baião + carne na chapa G",
+        "preco": 15,
+        "imagem":"imagens/img-pratinho-baiao+carne-na-chapa.png"
+        
+    },
+    {
+        "category_label": "PRATOS",
+        "item": "Buchada",
+        "preco": 25,
+        "imagem":"imagens/img-buchada+arroz.png"
+    },
+    {
+        "category_label": "PORÇÕES / PETISCOS",
+        "item": "Macaxeira  Frita",
+        "preco": 17,
+        "imagem":"imagens/img-porcao-macaxeira.png"
+    },
+    {
+        "category_label": "PORÇÕES / PETISCOS",
+        "item": "Batatinha",
+        "preco": 17,
+        "imagem":"imagens/img-porcao-batata.png"
+    },
+    {
+        "category_label": "PORÇÕES / PETISCOS",
+        "item": "Bolinhas de queijo",
+        "preco": 17,
+        "imagem":"imagens/img-porcao-bolinhas.png"
+    },
+    {
+        "category_label": "PORÇÕES / PETISCOS",
+        "item": "Bolinhas de carne do sol",
+        "preco": 17,
+        "imagem":"imagens/img-porcao-bolinhas.png"
+    },
+    {
+        "category_label": "PORÇÕES / PETISCOS",
+        "item": "Bolinhas de presunto e queijo",
+        "preco": 17,
+        "imagem":"imagens/img-porcao-bolinhas.png"
+    },
+    {
+        "category_label": "PORÇÕES / PETISCOS",
+        "item": "Bolinhas de frango",
+        "preco": 17,
+        "imagem":"imagens/img-porcao-bolinhas.png"
+    },
+    {
+        "category_label": "PORÇÕES / PETISCOS",
+        "item": "Bolinhas de macaxeira com carne do sol",
+        "preco": 17,
+        "imagem":"imagens/img-porcao-bolinhas.png"
+    },
+    {
+        "category_label": "PORÇÕES / PETISCOS",
+        "item": "Mini pastéis de queijo",
+        "preco": 17,
+        "imagem":"imagens/img-porcao-mine-pasteis.png"
+    },
+    {
+        "category_label": "PORÇÕES / PETISCOS",
+        "item": "Mini pastéis de presunto e queijo",
+        "preco": 17,
+        "imagem":"imagens/img-porcao-mine-pasteis.png"
+    },
+    {
+        "category_label": "PORÇÕES / PETISCOS",
+        "item": "Mini pastéis de carne do sol",
+        "preco": 17,
+        "imagem":"imagens/img-porcao-mine-pasteis.png"
+    },
+    {
+        "category_label": "PORÇÕES / PETISCOS",
+        "item": "Mini pastéis Romeu e julieta",
+        "preco": 17,
+        "imagem":"imagens/img-porcao-mine-pasteis.png"
+    },
+    {
+        "category_label": "PORÇÕES / PETISCOS",
+        "item": "Porção de Camarão alho e oleo",
+        "preco": 30,
+        "imagem":"imagens/img-porcao-camarao.png"
+    },
+    {
+        "category_label": "SALGADOS",
+        "item": "Risole — Carne",
+        "preco": 5,
+        "imagem":"imagens/img-risole-carne.png"
+
+    },
+    {
+        "category_label": "SALGADOS",
+        "item": "Enroladinho — Salsicha",
+        "preco": 5,
+        "imagem":"imagens/img-enrolado-salsicha.png"
+    },
+    {
+        "category_label": "SALGADOS",
+        "item": "Coxinha",
+        "preco": 5,
+        "imagem":"imagens/img-coxinha.png"
+    },
+    {
+        "category_label": "SALGADOS",
+        "item": "Pastel de queijo",
+        "preco": 5,
+        "imagem":"imagens/img-pastel.png"
+    },
+    {
+        "category_label": "SALGADOS",
+        "item": "Pastel de frango",
+        "preco": 5,
+        "imagem":"imagens/img-pastel.png"
+    },
+    {
+        "category_label": "SALGADOS",
+        "item": "Pastel de presunto e queijo",
+        "preco": 5,
+        "imagem":"imagens/img-pastel.png"
+    },
+    {
+        "category_label": "COMBOS",
+        "item": "Carne do sol + Batata frita",
+        "preco": 20,
+        "imagem":"imagens/combo-batata+carne-do-sol.png"
+    },
+    {
+        "category_label": "COMBOS",
+        "item": "Carne do sol + Macaxeira frita",
+        "preco": 20,
+        "imagem":"imagens/combo-macaxeira+carne-do-sol.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Coca Cola 2L",
+        "preco": 15,
+        "imagem":"imagens/img-refri-coca-cola2l.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Refri Laranja 2L",
+        "preco": 15,
+        "imagem":"imagens/img-refri-laranja2l.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Refri Uva 2L",
+        "preco": 15,
+        "imagem":"imagens/img-refri-uva2l.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Coca Cola 1L",
+        "preco": 10,
+        "imagem":"imagens/img-refri-coca-cola1l.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Refri Laranja 1L",
+        "preco": 10,
+        "imagem":"imagens/img-refri-laranja1l.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Refri Uva 1L",
+        "preco": 10,
+        "imagem":"imagens/refrigerante-uva-1l.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Lata-coca cola",
+        "preco": 5,
+        "imagem":"imagens/img-lata-coca-cola.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Lata-Laranja",
+        "preco": 5,
+        "imagem":"imagens/img-lata-laranja.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Lata-uva",
+        "preco": 5,
+        "imagem":"imagens/img-lata-uva.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Energético 2L",
+        "preco": 12,
+        "imagem":"imagens/img-energetico2l.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Energético monster lata",
+        "preco": 12,
+        "imagem":"imagens/img-lata-energetico-monster.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Energético Redbull lata",
+        "preco": 13,
+        "imagem":"imagens/img-lata-energetico-red-bull.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Suco de Maracujá 250ML",
+        "preco": 5,
+        "imagem":"imagens/suco-maracuja-250ml.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Suco de Manga 250ML",
+        "preco": 5,
+        "imagem":"imagens/suco-manga-250ml.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Suco de Acerola 250ML",
+        "preco": 5,
+        "imagem":"imagens/suco-acerola-250ml.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Suco de Goiaba 250ML",
+        "preco": 5,
+        "imagem":"imagens/suco-goiaba-250ml.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Vitamina Morango 250ML",
+        "preco": 7,
+        "imagem":"imagens/img-vitamina-morango-250ml.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Vitamina Graviola 250ML",
+        "preco": 7,
+        "imagem":"imagens/img-vitamina-graviola-250ml.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Vitamina Goiaba 250ML",
+        "preco": 7,
+        "imagem":"imagens/img-vitamina-goiaba-250ml.png"
+    },
+    {
+        "category_label": "BEBIDAS",
+        "item": "Vitamina Acerola 250ML",
+        "preco": 7,
+        "imagem":"imagens/img-vitamina-acerola-250ml.png"
+    },
+    {
+        "category_label": "ACOMPANHAMENTOS",
+        "item": "Vinagrete",
+        "preco": null
+    },
+    {
+        "category_label": "ACOMPANHAMENTOS",
+        "item": "Farofa",
+        "preco": null
+    }
+]

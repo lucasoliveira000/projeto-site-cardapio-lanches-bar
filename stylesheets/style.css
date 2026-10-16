@@ -293,7 +293,7 @@ main > .chamada{
     padding: 20px 0px 20px 0px;
 }
 
-.produtos > article > h4 {
+.produtos > article > div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -301,27 +301,27 @@ main > .chamada{
 }
 
 
-.produtos > article > h4 > img{
+.produtos > article > div > img{
     vertical-align: middle;
     width: 200px;
     height: auto;
 }
 
 @media (max-width: 900px){
-    .produtos > article > h4 > img{
+    .produtos > article > div > img{
         width: 120px;
         height: auto;
     }
 }
 
 @media (max-width: 700px){
-    .produtos > article > h4 > img{
+    .produtos > article > div > img{
         width: 70px;
         height: auto;
     }
 }
 
-.produtos > article > h4 > span{
+.produtos > article > div > span{
     color: var(--cor8);
     font-size: 30px;
     font-family: var(--font-monoespacada);
@@ -333,7 +333,7 @@ main > .chamada{
 
 
 @media (max-width: 1000px){
-    .produtos > article > h4 > span{
+    .produtos > article > div > span{
         font-size: 25px;
         width: 300px;
         height: auto;
@@ -343,14 +343,14 @@ main > .chamada{
 }
 
 @media (max-width: 700px){
-    .produtos > article > h4 > span{
+    .produtos > article > div > span{
         font-size: 20px;
         width: 50px;
         height: auto;
     }
 }
 
-.produtos > article > h4 > strong{
+.produtos > article > div > strong{
     color: var(--cor8);
     border-radius: 5px;
     font-family: var(--font-monoespacada);
@@ -363,14 +363,14 @@ main > .chamada{
 }
 
 @media (max-width: 700px){
-    .produtos > article > h4 > strong{
+    .produtos > article > div > strong{
         font-size: 18px;
         width: 50px;
         height: auto;
     }
 }
 
-.produtos > article > h4 > button{
+.produtos > article > div > button{
     background-color: var(--cor10);
     color: var(--cor0);
     border-radius: 5px;
@@ -382,7 +382,7 @@ main > .chamada{
 }
 
 @media (max-width: 700px){
-    .produtos > article > h4 > button{
+    .produtos > article > div > button{
         font-size: 16.5px;
         width: 80px;
         height: auto;
