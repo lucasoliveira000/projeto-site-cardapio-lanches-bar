@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root{
+    --cor0:white;
+    --cor1:#02bc2a;
+    --cor2:#dc3d3d;
+    --cor3:#a82f2f;
+    --cor4:#5c1a1a;
+    --cor5:#3d0606;
+    --cor6:#f7d04e;
+    --cor7:#f5f3e0;
+    --cor8:#f6f6f4dd;
+    --cor9:#000000;
+    --cor10:rgba(2, 115, 38, 0.996);
+
+    --font-padrao:arial,verdana,helvetica,sans-serif;
+    --font-destaque:"Bebas Neue", sans-serif;
+    --font-monoespacada:monospace;
+}   
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--font-padrao);
+}
+
+header{
+    background-image:linear-gradient(to bottom, var(--cor2), var(--cor4));
+    color: var(--cor0);
+    text-align: center;
+
+}
+
+/* Estrutura do interruptor */
+.interruptor {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+}
+
+/* Esconde o checkbox original */
+.interruptor input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Fundo do interruptor */
+.conteudo-botao {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background-color: #ccc;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+/* Bolinha branca */
+.conteudo-botao::before {
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+/* Cor quando ativado */
+.interruptor input:checked + .conteudo-botao {
+    background-color: #438f6d;
+}
+
+/* Movimento da bolinha */
+.interruptor input:checked + .conteudo-botao::before {
+    transform: translateX(16px);
+}
